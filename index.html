@@ -1,42 +1,19 @@
 <html>
+<html lan="en">
   <head>
     <meta charset="UTF-8">
     <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <style>
-    *{ 
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-  body{ 
-    min-height: 100vh;
-    background: #eee;
-    display: flex;
-    font-family: sans-serif;
-  }
-  .container{
-    margin: auto;
-    width: 500px;
-    max-width: 90%;
-  }
- .container form{
-    width: 100%
-    height: 100%
-    padding: 20px;
-    background: white;
-    border-radius:4px;
-    box-shadow: 0 8px 16px rgba(0,0,0,.3);
-  }
-  </style>
   </head>
   <body>
+    <form class="box" action="index.html" method="POST">
     <center>
-      <div class="container">
-    <input class="box" type="text" placeholder="Email or phone number"><br>
-   <br><input class="box" type="password" placeholder="Password"><br>
- <br><button class="loginbtn" href="#">Login</button>
-    </div>
+    <input type="text" name="" placeholder="Email or phone number" id="username"><br>
+   <br><input type="password" name="" placeholder="Password" id="password"><br>
+ <br><input type="Submit" name="" value="Log In">
   </center>
+    </form>
+
   </body>
+  
 </html>
