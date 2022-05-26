@@ -1,16 +1,9 @@
-body {
+body{
   font-family: 'Times New Roman', Times, serif;
   background: rgb(211, 153, 47);
 }
-<style>
-.bordered {
-  width: 200px;
-  height: 100px;
-  padding: 20px;
-  border: 1px slategray;
-  border-radius: 8px;
-}
-</style>
-<div class="bordered">
-Box with a bordered
-</div>
+section{
+  position: relative;
+  height: 100vh;
+  width:100%;
+  background: url(".form.jpg");
