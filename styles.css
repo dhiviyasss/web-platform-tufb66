@@ -1,9 +1,16 @@
 body {
   font-family: 'Times New Roman', Times, serif;
-  background: rgb(221, 209, 186);
+  background: rgb(211, 153, 47);
 }
-.container {
-  width: 380px;
-  margin: auto;
-  border-radius: 25px;
-  
+<style>
+.bordered {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 1px slategray;
+  border-radius: 8px;
+}
+</style>
+<div class="bordered">
+Box with a bordered
+</div>
